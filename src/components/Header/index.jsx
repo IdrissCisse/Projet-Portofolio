@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1 className="header-title">Prénom Nom</h1>
+      <h1 className="header-title">Idriss Cissé</h1>
       <nav className="header-nav">
         <ul className="nav-list">
           <li>

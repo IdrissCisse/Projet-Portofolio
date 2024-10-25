@@ -1,3 +1,53 @@
-div {
-    position: absolute;
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &-info {
+        max-width: 60%;
+
+        &-name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        &-role {
+            font-size: 1.5rem;
+            color: #94a3b7;
+            margin-bottom: 1rem;
+        }
+
+        &-desc {
+            width: 70%;
+            font-size: 1.2rem;
+            line-height: 1.5;
+
+            &-link {
+                color: #f7f9fb;
+                background-color: #5b5f64;
+                border-radius: 5px;
+                font-size: 1rem;
+                padding: 3px;
+                transition:
+                    background-color 0.3s ease,
+                    box-shadow 0.3s ease;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+                &:hover {
+                    background-color: #747b84;
+                    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+
+    &-pic {
+        max-width: 40%;
+        img {
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
 }

@@ -10,11 +10,11 @@ function App() {
   return (
     <main>
       <Header />
-      <Spacer size="5rem" />
+      <Spacer size="7rem" />
       <div id="home">
         <Home />
       </div>
-      <Spacer size="4rem" />
+      <Spacer size="7rem" />
       <div id="about">
         <About />
       </div>
