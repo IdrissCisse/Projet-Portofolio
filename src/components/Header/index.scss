@@ -1,11 +1,14 @@
 .header {
-    background-color: inherit;
-    padding: 20px;
-    margin: auto;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background-color: #010816;
+    z-index: 1000;
+    padding: 20px 0;
     text-align: center;
     display: flex;
-    justify-content: space-around;
-    gap: 85px;
+    gap: min(10rem, 5vw);
+    justify-content: space-between;
     align-items: center;
 
     &-title {
@@ -15,9 +18,8 @@
 
     &-nav {
         display: flex;
-        justify-content: center;
-        gap: 30px;
-        margin-right: 45px;
+
+        gap: 25px;
 
         .nav-link {
             font-size: 1.2rem;
