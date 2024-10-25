@@ -1,0 +1,39 @@
+.header {
+    background-color: inherit;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 85px;
+    align-items: center;
+
+    &-title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    &-nav {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-right: 45px;
+
+        .nav-link {
+            font-size: 1.2rem;
+            text-decoration: none;
+            list-style: none;
+            padding: 5px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #fff;
+                color: #000;
+            }
+
+            &.active {
+                text-decoration: underline;
+            }
+        }
+    }
+}

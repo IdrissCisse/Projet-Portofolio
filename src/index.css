@@ -1,10 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@layer base {
+  :root {
+    --background: #010816;
+    --foreground: #f7f9fb;
+    --card: #010816;
+    --card-foreground: #f7f9fb;
+    --popover: #010816;
+    --popover-foreground: #f7f9fb;
+    --primary: #f7f9fb; 
+    --primary-foreground: #0f172a;
+    --secondary: #1e293b;
+    --secondary-foreground: #f7f9fb;
+    --muted: #1e293b;
+    --muted-foreground: #94a3b7;
+    --accent: #1e293b;
+    --accent-foreground: #f7f9fb;
+    --destructive: #7f1d1d;
+    --destructive-foreground: #f7f9fb;
+    --border: #1e293b;
+    --input: #1e293b;
+    --ring: #cad4e0;
+    --chart-1: #2661d8;
+    --chart-2: #2db789;
+    --chart-3: #e88c30;
+    --chart-4: #af56db;
+    --chart-5: #e2366f;
+  }
+}
+
+a {
+  color: var(--primary); 
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  gap: 30px;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'DM Serif Text', serif;
+  background-color: var(--background);
+  color: var(--primary); 
 }
 
 code {

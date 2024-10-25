@@ -1,14 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from '../../pages/Home';
-import Layout from '../Layout';
+import App from '../../pages/App';
 
 const AppRouter = () => (
   <Router>
     <Routes>
-    <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-      </Route>
+      <Route path="/" element={<App />} />
     </Routes>
   </Router>
 );
