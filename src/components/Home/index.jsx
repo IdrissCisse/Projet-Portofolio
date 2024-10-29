@@ -23,7 +23,7 @@ const Home = () => {
         </p>
       </div>
       <div className="home-pic">
-        <img src={profil} alt="Ma photo de profil" />
+        <img src={profil} alt="Profil" />
       </div>
     </div>
   );

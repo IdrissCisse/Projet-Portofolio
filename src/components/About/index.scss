@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    &-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &-content {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        &-formation,
+        &-skills {
+            width: 49%;
+        }
+    }
+}

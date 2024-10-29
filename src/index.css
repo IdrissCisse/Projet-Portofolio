@@ -29,6 +29,10 @@
   }
 }
 
+* {
+  margin: 0;
+}
+
 a {
   color: var(--primary); 
   text-decoration: none;
