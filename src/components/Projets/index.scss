@@ -1,0 +1,23 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 7rem;
+        margin-bottom: 2rem;
+
+        &-skills-container {
+            display: flex;
+            gap: 1.5rem;
+        }
+    }
+}

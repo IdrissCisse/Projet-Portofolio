@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Création d'un site avec React",
+      "image": "https://media.licdn.com/dms/image/C5612AQFbd_TF5g3RoQ/article-cover_image-shrink_600_2000/0/1623315866685?e=2147483647&v=beta&t=N0N73BGM0DURYVfzxeip0dsbe2dQDa4iQ3dYLwZfDIA",
+      "alt": "React app logo",
+      "description": "Ce projet consiste à implémenter le front-end d'un site de logements avec React à l'aide de composants modulaires et réutilisables. La gestion des différentes routes du site est réalisée avec React Router et les styles ainsi que les animations CSS ont été implémentés avec SASS.",
+      "skills": ["React Router", "Composants React", "Sass"],
+      "links": {
+        "github": "https://github.com/IdrissCisse/Projet5OC",
+        "website": "https://idrisscisse.github.io/Projet5OC/"
+      }
+    },
+    {
+      "title": "Développement du back-end d'un site",
+      "image": "https://devabit.com/uploads/node.js-framewroks-cover-devabit.webp",
+      "description": "Ce projet consiste à développer le back-end d'un site de notations de livres en créant un serveur géré par Express avant de le connecter à une base de données MongoDB. Il comprend la mise en place de modéles de données avec Mongoose ainsi que l'implémentation d'opérations CRUD accompagnée de l'application de mesures de securité des données et d'authentification. ",
+      "skills": ["Express", "MongoDB", "API RESTful", "CRUD", "Architecture MVC", "Green Code"],
+      "links": {
+        "github": "https://github.com/IdrissCisse/PROJET6OC",
+        "website": null
+      }
+    },
+    {
+      "title": "Planification du développement d'un site web",
+      "image": "https://digital-commerce.post.ch/-/media/post-maxisites/e-commerce/bilder/ccdc-45-2020-agile-methoden-1500-927.jpg?vs=1",
+      "description": "Il s'agit d'une mission consistant à planifier le développement d'un site de mise en page de menus en s'appuyant sur une maquette, aux spécifications fonctionnelles et aux User Stories mises à notre disposition. Le projet comprend l'élaboration de spécificaations techniques à partir d'une veille technologique et des Users Stories ainsi qu'un tableau Kanban conformément à la methode Agile Scrum.",
+      "skills": ["Gestion de projet", "Agile Scrum", "Kanban Trello", "Veille technologique", "Solution technique" ],
+      "links": {
+        "github": null,
+        "website": "https://www.figma.com/proto/Q6NEUPqwz1U3HFaCaVoF7N/Maquette-desktop---Menu-Maker-by-Qwenta?node-id=0-6&node-type=frame&t=W3zuWRFh43GluHI0-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A658",
+        "drive": "https://docs.google.com/presentation/d/1qWfrerNITTr8jxeQpgWpsLN_L5CP7ZhXvc4KJqEgPsI/edit?usp=sharing"
+      }
+    }
+  ]

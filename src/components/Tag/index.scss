@@ -1,0 +1,19 @@
+.skills-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010816;
+    border-radius: 10px;
+    min-width: 105px;
+    height: 25px;
+    color: #f7f9fb;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px;
+
+    @media (max-width: 767.98px) {
+        width: 84px;
+        height: 18px;
+        font-size: 10px;
+    }
+}
