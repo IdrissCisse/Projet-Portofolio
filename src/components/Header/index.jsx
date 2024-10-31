@@ -8,7 +8,6 @@ const Header = () => {
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
-
   return (
     <header className="header">
       <h1 className="header-title">Idriss Cissé</h1>
