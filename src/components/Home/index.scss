@@ -5,7 +5,27 @@
 
     &-info {
         max-width: 60%;
-        margin-top: 3rem;
+        margin-top: 2rem;
+
+        &-cv {
+            padding: 0.8rem 1.7rem;
+            margin-top: 2rem;
+            background-color: #f7f9fb;
+            color: #010816;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition:
+                background-color 0.3s ease,
+                transform 0.1s ease;
+
+            &:hover {
+                background-color: #fff;
+                transform: scale(1.03);
+            }
+        }
 
         &-name {
             font-size: 2rem;

@@ -1,7 +1,18 @@
 import './index.scss';
 import profil from '../../assets/images/photo-profil.avif';
+import cvFile from '../../assets/files/CV_Alioune_I_C_Faye.pdf';
 
 const Home = () => {
+  const handleDownload = (file) => {
+    const link = document.createElement('a');
+    link.href = file;
+    const fileName = file.split('/').pop().split('.')[0] + '.pdf';
+    link.download = fileName;
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="home">
       <div className="home-info">
@@ -21,6 +32,9 @@ const Home = () => {
           </a>
           .
         </p>
+        <button className="home-info-cv" onClick={() => handleDownload(cvFile)}>
+          Télécharger mon CV
+        </button>
       </div>
       <div className="home-pic">
         <img src={profil} alt="Profil" />
