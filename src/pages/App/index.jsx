@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Home from '../../components/Home';
 import About from '../../components/About';
 import Projets from '../../components/Projets';
+import Contact from '../../components/Contact';
 import Spacer from '../../components/Spacer';
 
 function App() {
@@ -22,6 +23,11 @@ function App() {
       <div id="projects">
         <Projets />
       </div>
+      <Spacer size="15rem" />
+      <div id="contact">
+        <Contact />
+      </div>
+      <Spacer size="2rem" />
     </main>
   );
 }

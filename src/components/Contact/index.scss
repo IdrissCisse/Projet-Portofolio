@@ -1,0 +1,102 @@
+.contact {
+    padding: 2rem;
+    background-color: #f7f9fb;
+    border-radius: 8px;
+    max-width: 37rem;
+
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+    &__title {
+        color: #010816;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    &__description {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #010816;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-right: 2rem;
+    }
+
+    &__input,
+    &__textarea {
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 1rem;
+        width: 100%;
+
+        &:focus {
+            border-color: #010816;
+            outline: none;
+        }
+    }
+
+    &__textarea {
+        resize: vertical;
+        min-height: 10rem;
+    }
+
+    &__button {
+        padding: 1rem;
+        background-color: #021230;
+        color: #f7f9fb;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #020f2a;
+        }
+    }
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        gap: 0.8rem;
+        background-color: white;
+        color: #010816;
+        padding: 1.5rem;
+        border-radius: 0.3rem;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    button {
+        margin-top: 2rem;
+        padding: 0.6rem 1rem;
+        border: none;
+        background-color: #04112c;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #010d23;
+        }
+    }
+}

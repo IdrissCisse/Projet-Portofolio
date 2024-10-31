@@ -20,7 +20,7 @@ const Header = () => {
               className={`nav-link ${activeLink === '#home' ? 'active' : ''}`}
               onClick={() => handleLinkClick('#home')}
             >
-              Home
+              Accueil
             </a>
           </li>
           <li>
@@ -29,7 +29,7 @@ const Header = () => {
               className={`nav-link ${activeLink === '#about' ? 'active' : ''}`}
               onClick={() => handleLinkClick('#about')}
             >
-              About
+              À-propos
             </a>
           </li>
           <li>
@@ -40,7 +40,18 @@ const Header = () => {
               }`}
               onClick={() => handleLinkClick('#projects')}
             >
-              Projects
+              Projets
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className={`nav-link ${
+                activeLink === '#contact' ? 'active' : ''
+              }`}
+              onClick={() => handleLinkClick('#contact')}
+            >
+              Contact
             </a>
           </li>
         </ul>
