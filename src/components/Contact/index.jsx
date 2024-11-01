@@ -33,10 +33,7 @@ const Contact = () => {
     <div className="contact">
       <h2 className="contact__title">Contactez-moi</h2>
       <p className="contact__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-        aperiam autem, voluptates quae perferendis, facere tempore dignissimos
-        officiis a minima culpa soluta distinctio tempora ex ad. Vel optio in
-        perspiciatis!
+        Une question ? Une collaboration ? Écrivez-moi !
       </p>
       <form className="contact__form" onSubmit={sendEmail}>
         <input

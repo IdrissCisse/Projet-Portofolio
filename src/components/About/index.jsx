@@ -39,10 +39,11 @@ const About = () => {
     <div className="about">
       <h2 className="about-title">À-propos</h2>
       <p className="about-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore at,
-        laboriosam modi natus sint quam accusamus quisquam voluptate
-        voluptatibus assumenda explicabo dolor consequuntur cum alias quae quas
-        ducimus eius ea.
+        Issu d'une formation intensive de niveau Bac +2 centrée sur des projets
+        réalistes, j'ai acquis de solides compétences aussi bien en front-end
+        qu'en back-end. Curieux et en constant apprentissage, je suis motivé à
+        l'idée de réaliser des projets innovants et de progresser aux côtés de
+        professionnels expérimentés.
       </p>
       <div className="about-content">
         <div className="about-content-formation">
@@ -73,7 +74,7 @@ const About = () => {
         </div>
         <div className="about-content-skills">
           <Card
-            title="Skills"
+            title="Compétences"
             image="https://f.hellowork.com/blogdumoderateur/2020/10/developpeur-web-1200x800.jpeg"
             items={skills.map((skill) => (
               <div
@@ -111,7 +112,7 @@ const About = () => {
                   alt="Télécharger"
                   style={{ width: '1rem', marginRight: '0.5rem' }}
                 />
-                Récapitulatif complet
+                Récaputilatif Complet
               </React.Fragment>
             }
             onActionClick={() => handleDownload(skillsFile)}

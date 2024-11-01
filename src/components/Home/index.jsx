@@ -19,9 +19,9 @@ const Home = () => {
         <h2 className="home-info-name">Alioune . I . C . Faye </h2>
         <h3 className="home-info-role">Développeur Full-Stack</h3>
         <p className="home-info-desc">
-          Bienvenue sur mon portofolio ! On va explorer le parcours que j'ai
-          suivi ainsi les compétences que j'y ai acquises à travers des projets
-          concrets que vous pouvez retrouver sur mon{' '}
+          Passionné par le développement web et l’univers numérique, je vous
+          invite à découvrir mon parcours, mes compétences et les projets que
+          j’ai réalisés, consultables sur mon{' '}
           <a
             href="https://github.com/IdrissCisse/"
             target="_blank"
