@@ -15,7 +15,7 @@ function App() {
       <div id="home">
         <Home />
       </div>
-      <Spacer size="8rem" />
+      <Spacer size="11rem" />
       <div id="about">
         <About />
       </div>

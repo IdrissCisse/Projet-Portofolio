@@ -5,8 +5,6 @@ import skillsFile from '../../assets/files/Récaputilatif-compétences.pdf';
 import formationFile from '../../assets/files/Programme-de-la-formation.pdf';
 import reactIcon from '../../assets/icons/react.svg';
 import nodeIcon from '../../assets/icons/nodejs.svg';
-import githubIcon from '../../assets/icons/github-icon.svg';
-import mongodbIcon from '../../assets/icons/mongodb.svg';
 import sassIcon from '../../assets/icons/sass.svg';
 import htmlIcon from '../../assets/icons/html-5.svg';
 import downloadIcon from '../../assets/icons/download-button-svgrepo-com.svg';
@@ -31,8 +29,6 @@ const About = () => {
     { icon: htmlIcon, name: 'HTML5 Logo' },
     { icon: sassIcon, name: 'Sass Logo' },
     { icon: nodeIcon, name: 'Node logo' },
-    { icon: mongodbIcon, name: 'MongoDB Logo' },
-    { icon: githubIcon, name: 'Github Logo' },
   ];
 
   return (
@@ -59,7 +55,7 @@ const About = () => {
                   alt="Télécharger le programme"
                   style={{ width: '1rem', marginRight: '0.5rem' }}
                 />
-                Télécharger le programme
+                Programme
               </React.Fragment>
             }
             onActionClick={() => handleDownload(formationFile)}
@@ -78,28 +74,23 @@ const About = () => {
             image="https://f.hellowork.com/blogdumoderateur/2020/10/developpeur-web-1200x800.jpeg"
             items={skills.map((skill) => (
               <div
+                className="skills-icon"
                 key={skill.name}
                 style={{
                   display: 'flex',
                   alignItems: 'center',
                   paddingTop: '1rem',
-                  marginRight: '2rem',
                 }}
               >
-                <img
-                  src={skill.icon}
-                  alt={skill.name}
-                  style={{
-                    width: '3.2rem',
-                    height: '3.2rem',
-                  }}
-                />
+                <img src={skill.icon} alt={skill.name} />
               </div>
             ))}
             showActions={true}
             bgColor="#f7f9fb;"
             textColor="#010816"
             itemsDirection="row"
+            itemsAlignment="center"
+            itemsGap="2rem"
             cardWidth="100%"
             cardHeight={`${15}rem`}
             titleSize="1.6rem"

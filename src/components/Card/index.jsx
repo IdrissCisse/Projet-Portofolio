@@ -14,7 +14,7 @@ export default function MediaCard({
   bgColor = 'white',
   textColor = 'black',
   cardWidth = 345,
-  cardHeight = 140,
+  cardHeight = '8rem',
   titleSize = '1.5rem',
   textSize = '1.2rem',
   actionContent = 'Learn More',
@@ -22,10 +22,23 @@ export default function MediaCard({
   itemsAlignment = 'flex-start',
   itemsDirection = 'column',
   itemsHeight = '3rem',
+  itemsGap,
 }) {
   return (
     <Card sx={{ width: cardWidth }}>
-      <CardMedia sx={{ height: cardHeight }} image={image} title={title} />
+      <CardMedia
+        sx={{
+          height: {
+            xs: '6rem',
+            sm: '10rem',
+            md: '13rem',
+            lg: '14rem',
+            xl: cardHeight,
+          },
+        }}
+        image={image}
+        title={title}
+      />
       <CardContent sx={{ backgroundColor: bgColor }}>
         <Typography
           gutterBottom
@@ -33,7 +46,13 @@ export default function MediaCard({
           component="div"
           sx={{
             color: textColor,
-            fontSize: titleSize,
+            fontSize: {
+              xs: '1.2rem',
+              sm: '1.3rem',
+              md: '1.4rem',
+              lg: titleSize,
+              xl: titleSize,
+            },
             fontWeight: '500',
           }}
         >
@@ -45,13 +64,24 @@ export default function MediaCard({
             justifyContent: itemsAlignment,
             flexDirection: itemsDirection,
             height: itemsHeight,
+            gap: itemsGap,
           }}
         >
           {items.map((item, index) => (
             <Typography
               key={index}
               variant="body2"
-              sx={{ color: textColor, marginBottom: '8px', fontSize: textSize }}
+              sx={{
+                color: textColor,
+                marginBottom: '8px',
+                fontSize: {
+                  xs: '0.95rem',
+                  sm: '1rem',
+                  md: '1.1rem',
+                  lg: textSize,
+                  xl: textSize,
+                },
+              }}
             >
               {item}
             </Typography>

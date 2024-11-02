@@ -21,7 +21,7 @@ const Projets = () => {
               project.description,
               <div
                 className="projects-content-skills-container"
-                style={{ marginTop: '1rem' }}
+                style={{ marginTop: '1rem', flexWrap: 'wrap' }}
               >
                 {project.skills.map((skill) => (
                   <Tag key={skill} label={skill} />
@@ -82,7 +82,7 @@ const Projets = () => {
             bgColor="#f7f9fb"
             textColor="#010816"
             cardWidth="100%"
-            cardHeight={`${20}rem`}
+            cardHeight={`${16}rem`}
             titleSize="1.6rem"
             textSize="1rem"
             itemsHeight="fit-content"
