@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Projet-Portofolio/static/css/main.965e3960.css",
-    "main.js": "/Projet-Portofolio/static/js/main.495df9c3.js",
+    "main.js": "/Projet-Portofolio/static/js/main.5d00ab5b.js",
     "static/js/453.41220910.chunk.js": "/Projet-Portofolio/static/js/453.41220910.chunk.js",
     "static/media/Programme-de-la-formation.pdf": "/Projet-Portofolio/static/media/Programme-de-la-formation.a6da22b9ec49f9a89ad9.pdf",
     "static/media/profil.webp": "/Projet-Portofolio/static/media/profil.94c8cdccfeb989aebab0.webp",
@@ -17,11 +17,11 @@
     "index.html": "/Projet-Portofolio/index.html",
     "static/media/slides-svgrepo-com.svg": "/Projet-Portofolio/static/media/slides-svgrepo-com.63930bba55284f488928e05690d6c0d9.svg",
     "main.965e3960.css.map": "/Projet-Portofolio/static/css/main.965e3960.css.map",
-    "main.495df9c3.js.map": "/Projet-Portofolio/static/js/main.495df9c3.js.map",
+    "main.5d00ab5b.js.map": "/Projet-Portofolio/static/js/main.5d00ab5b.js.map",
     "453.41220910.chunk.js.map": "/Projet-Portofolio/static/js/453.41220910.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.965e3960.css",
-    "static/js/main.495df9c3.js"
+    "static/js/main.5d00ab5b.js"
   ]
 }
