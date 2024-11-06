@@ -1,6 +1,6 @@
 import './index.scss';
 import profil from '../../assets/images/profil.webp';
-import cvFile from '../../assets/files/CV_Alioune_I_C_Faye.pdf';
+import cvFile from '../../assets/files/CV_Alioune_Idriss_C_Faye.pdf';
 
 const Home = () => {
   const handleDownload = (file) => {
