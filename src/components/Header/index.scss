@@ -50,11 +50,11 @@
         padding: 5px;
         border-radius: 5px;
 
-        @media (max-width: 767.98px) {
+       
+ @media (max-width: 767.98px) {
             font-size: 1rem;
             text-wrap: nowrap;
         }
-
         &:hover {
             background-color: #fff;
             color: #000;
