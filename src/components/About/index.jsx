@@ -1,29 +1,17 @@
 import React from 'react';
 import './index.scss';
 import Card from '../Card';
-import skillsFile from '../../assets/files/Récaputilatif-compétences.pdf';
-import formationFile from '../../assets/files/Programme-de-la-formation.pdf';
 import reactIcon from '../../assets/icons/react.svg';
 import nodeIcon from '../../assets/icons/nodejs.svg';
 import sassIcon from '../../assets/icons/sass.svg';
 import htmlIcon from '../../assets/icons/html-5.svg';
-import downloadIcon from '../../assets/icons/download-button-svgrepo-com.svg';
+import webIcon from '../../assets/icons/web-svgrepo-com.svg';
 
 const About = () => {
   const formations = [
     '- Baccalaureat Scientique - Maths/SP ',
     '- Cursus Developpement Web OpenClassrooms - Bac +2',
   ];
-  const handleDownload = (file) => {
-    const link = document.createElement('a');
-    link.href = file;
-    const fileName = file.split('/').pop().split('.')[0] + '.pdf';
-    link.download = fileName;
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   const skills = [
     { icon: reactIcon, name: 'React logo' },
     { icon: htmlIcon, name: 'HTML5 Logo' },
@@ -48,17 +36,7 @@ const About = () => {
             image="https://www.fdesouche.com/wp-content/uploads/2022/02/image-80-1536x983.jpg"
             items={formations}
             showActions={true}
-            actionContent={
-              <React.Fragment>
-                <img
-                  src={downloadIcon}
-                  alt="Télécharger le programme"
-                  style={{ width: '1rem', marginRight: '0.5rem' }}
-                />
-                Programme
-              </React.Fragment>
-            }
-            onActionClick={() => handleDownload(formationFile)}
+            actionContent={<React.Fragment></React.Fragment>}
             bgColor="#f7f9fb"
             textColor="#010816"
             cardWidth="100%"
@@ -83,10 +61,10 @@ const About = () => {
                 }}
               >
                 <img src={skill.icon} alt={skill.name} />
-              </div>
+                </div>
             ))}
             showActions={true}
-            bgColor="#f7f9fb;"
+            bgColor="#f7f9fb"
             textColor="#010816"
             itemsDirection="row"
             itemsAlignment="center"
@@ -99,14 +77,15 @@ const About = () => {
             actionContent={
               <React.Fragment>
                 <img
-                  src={downloadIcon}
-                  alt="Télécharger"
-                  style={{ width: '1rem', marginRight: '0.5rem' }}
+                  src={webIcon}
+                  alt="lien externe"
+                  style={{ width: '1.3rem', height: '1.7rem',marginRight: '0.5rem' }}
                 />
-                Récaputilatif Complet
+                Tableau de compétences
               </React.Fragment>
             }
-            onActionClick={() => handleDownload(skillsFile)}
+            onActionClick={() => window.open("https://miro.com/app/board/uXjVLO7P7m0=/?share_link_id=356985712433", '_blank')}
+           
           />
         </div>
       </div>

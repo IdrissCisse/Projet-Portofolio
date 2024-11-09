@@ -55,6 +55,7 @@ const Projets = () => {
                       cursor: 'pointer',
                       width: '1.7rem',
                       height: '1.7rem',
+                      marginRight: '0.7rem'
                     }}
                     onClick={() => window.open(project.links.github, '_blank')}
                   />

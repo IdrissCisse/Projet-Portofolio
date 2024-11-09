@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
+
 export default function MediaCard({
   title,
   image,
@@ -58,17 +59,18 @@ export default function MediaCard({
         >
           {title}
         </Typography>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: itemsAlignment,
-            flexDirection: itemsDirection,
-            height: itemsHeight,
-            gap: itemsGap,
-          }}
-        >
+            <div
+            style={{
+              display: 'flex',
+              justifyContent: itemsAlignment,
+              flexDirection: itemsDirection,
+              height: itemsHeight,
+              gap: itemsGap,
+            }}
+          >
           {items.map((item, index) => (
             <Typography
+             component="div"
               key={index}
               variant="body2"
               sx={{
