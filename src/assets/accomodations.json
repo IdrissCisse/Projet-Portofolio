@@ -72,12 +72,12 @@
     "alt": "SEO",
     "description": "Il s'agit d'un projet d'optimisation servant à améliorer les perfomances d'un site de photographe aprés une evaluation préalable avec des outils comme Lighthouse et Wave. Les modifications efféctuées concernent, entre autres, l'optimisation de la structure du code ainsi que de la taille des images, la mise en place du référencement local avec Schema.org et l'ajout des balises meta pour les réseaux sociaux. ",
     "skills": [
-      "HTML5",
-      "CSS3",
+      "Optimisation SEO",
+      "Débogage",
       "Responsive Design",
-      "Figma",
-      "Git",
-      "Github"
+      "Schema.org",
+      "Rich Snippet",
+      "Cahier de recette"
     ],
     "links": {
       "github": "https://github.com/IdrissCisse/Projet4OC",
