@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Projet-Portofolio/static/css/main.965e3960.css",
-    "main.js": "/Projet-Portofolio/static/js/main.d8a56700.js",
+    "main.js": "/Projet-Portofolio/static/js/main.aa7394d5.js",
     "static/js/453.41220910.chunk.js": "/Projet-Portofolio/static/js/453.41220910.chunk.js",
     "static/media/profil.webp": "/Projet-Portofolio/static/media/profil.94c8cdccfeb989aebab0.webp",
     "static/media/CV_Alioune_Idriss_C_Faye.pdf": "/Projet-Portofolio/static/media/CV_Alioune_Idriss_C_Faye.6279b2a4c13b0e5bf204.pdf",
@@ -14,11 +14,11 @@
     "index.html": "/Projet-Portofolio/index.html",
     "static/media/slides-svgrepo-com.svg": "/Projet-Portofolio/static/media/slides-svgrepo-com.63930bba55284f488928e05690d6c0d9.svg",
     "main.965e3960.css.map": "/Projet-Portofolio/static/css/main.965e3960.css.map",
-    "main.d8a56700.js.map": "/Projet-Portofolio/static/js/main.d8a56700.js.map",
+    "main.aa7394d5.js.map": "/Projet-Portofolio/static/js/main.aa7394d5.js.map",
     "453.41220910.chunk.js.map": "/Projet-Portofolio/static/js/453.41220910.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.965e3960.css",
-    "static/js/main.d8a56700.js"
+    "static/js/main.aa7394d5.js"
   ]
 }
