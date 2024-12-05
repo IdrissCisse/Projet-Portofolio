@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Projet-Portofolio/static/css/main.965e3960.css",
-    "main.js": "/Projet-Portofolio/static/js/main.aa7394d5.js",
+    "main.js": "/Projet-Portofolio/static/js/main.28b270f1.js",
     "static/js/453.41220910.chunk.js": "/Projet-Portofolio/static/js/453.41220910.chunk.js",
     "static/media/profil.webp": "/Projet-Portofolio/static/media/profil.94c8cdccfeb989aebab0.webp",
-    "static/media/CV_Alioune_Idriss_C_Faye.pdf": "/Projet-Portofolio/static/media/CV_Alioune_Idriss_C_Faye.6279b2a4c13b0e5bf204.pdf",
+    "static/media/CV_Alioune_Idriss_C_Faye.pdf": "/Projet-Portofolio/static/media/CV_Alioune_Idriss_C_Faye.759aa324259c3345754e.pdf",
     "static/media/nodejs.svg": "/Projet-Portofolio/static/media/nodejs.5a3a9ca294db0539884810b6e6eafedd.svg",
     "static/media/sass.svg": "/Projet-Portofolio/static/media/sass.8351205a93eafac2e392b26acf7580e1.svg",
     "static/media/react.svg": "/Projet-Portofolio/static/media/react.e27571eaed899c642345e71163624ef9.svg",
     "static/media/github-icon.svg": "/Projet-Portofolio/static/media/github-icon.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
     "static/media/web-svgrepo-com.svg": "/Projet-Portofolio/static/media/web-svgrepo-com.74e46dc0246b87255b5c5079bcadadf6.svg",
     "static/media/html-5.svg": "/Projet-Portofolio/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg",
-    "index.html": "/Projet-Portofolio/index.html",
     "static/media/slides-svgrepo-com.svg": "/Projet-Portofolio/static/media/slides-svgrepo-com.63930bba55284f488928e05690d6c0d9.svg",
+    "index.html": "/Projet-Portofolio/index.html",
     "main.965e3960.css.map": "/Projet-Portofolio/static/css/main.965e3960.css.map",
-    "main.aa7394d5.js.map": "/Projet-Portofolio/static/js/main.aa7394d5.js.map",
+    "main.28b270f1.js.map": "/Projet-Portofolio/static/js/main.28b270f1.js.map",
     "453.41220910.chunk.js.map": "/Projet-Portofolio/static/js/453.41220910.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.965e3960.css",
-    "static/js/main.aa7394d5.js"
+    "static/js/main.28b270f1.js"
   ]
 }
